@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+body{
+    background: #ffffff;
+}
+
+header{
+    background-image: url(/assets/image/banner/main_banner.png) ;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-radius: 0 0 200px 0;
+    margin-bottom: 50px;
+}
+.container{
+    width: 1170px;
+    padding: 0 215px;
+}
+.navigation-page{
+    padding-top: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 100px;
+}
+.head-title{
+    padding-bottom: 30px;
+    color: #ffffff;
+
+}
+
+.h-title,.p-text{
+    padding-bottom: 10px;
+    color: #ffffff;
+}
+.title-nd{
+    font-size: 32px;
+    font-weight: 300;
+}
+.p-text{
+    font-size: 12px;
+    width: 400px;
+}
+.top-appoinment{
+    background: #1DB5E4;
+    padding: 10px 25px;
+    border-radius: 5px;
+}
+.top-button-appoinment,.an-button{
+    border: none;
+}
+ul{
+    display: flex;
+}
+li{
+    list-style-type: none;
+    padding-left: 20px;
+}
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.pil-logo{
+    width: 50px;
+    height: 50px;
+}
+.appoinment{
+    padding-bottom: 100px;
+    display: flex;
+}
+.container-sec{
+    padding: 50px 250px;
+    display: flex;
+    justify-content: space-between;
+}
+.make-appoinment{
+    width: 500px;
+    height: 150px;
+    padding: 20px;
+    background: #ffffff;
+    box-shadow: 1px 0 20px rgba(128, 128, 128, 0.251);
+    margin-left: 15px;
+}
+.appoinment-icon{
+    width: 32px;
+    height: 32px;
+    background: rgba(55, 191, 229, 0.200);
+    border-radius: 5px;
+    padding: 6px;
+    margin-bottom: 10px;
+}
+.doctor-icon{
+    width: 32px;
+    height: 32px;
+    background: rgba(234, 95, 97, 0.200);
+    border-radius: 5px;
+    padding: 6px;
+    margin-bottom: 10px;
+}
+.care-icon{
+    width: 32px;
+    height: 32px;
+    background: rgba(70, 232, 86, 0.200);
+    border-radius: 5px;
+    padding: 6px;
+    margin-bottom: 10px;
+}
+h5, p{
+    font-weight: 300;
+    padding-bottom: 10px;
+}
+p{
+    font-size: 12px;
+    color: #707070;
+}
+.an-appoinment{
+    background: #ffffff;
+    color: #1DB5E4;
+    padding: 10px 25px;
+    border-radius: 5px 0 0 5px;
+}
+.right-arow{
+    background: #F66C6C;
+    height: 36px;
+    padding: 10px;
+    border-radius: 0 5px 5px 0;
+}
+.an-button{
+    border-radius: 5px;
+}
