@@ -8,16 +8,22 @@ body{
     background: #ffffff;
 }
 
-header{
+/* header{
     background-image: url(/assets/image/banner/main_banner.png) ;
     background-repeat: no-repeat;
     background-size: 100%;
     border-radius: 0 0 200px 0;
     margin-bottom: 50px;
-}
+} */
 .container{
-    width: 1170px;
+    background-image: url(/assets/image/banner/main_banner.png) ;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-radius: 0 0 200px 0;
+    margin-bottom: 50px;
+    width: 100%;
     padding: 0 215px;
+    min-width: 1040px;
 }
 .navigation-page{
     padding-top: 25px;
@@ -75,6 +81,7 @@ a{
     padding: 50px 250px;
     display: flex;
     justify-content: space-between;
+    min-width: 1090px;
 }
 .make-appoinment{
     width: 500px;
